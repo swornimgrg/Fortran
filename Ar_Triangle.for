@@ -1,0 +1,13 @@
+		PROGRAM AREA
+		REAL A,B,C,S
+		REAL RESULT
+
+		WRITE(*,*) 'ENTER THE SIDES OF THE TRIANGLE:'
+		READ *,A,B,C
+
+		S=(A+B+C)/2
+		RESULT=(S*(S-A)*(S-B)*(S-C))**0.5
+
+		WRITE(*,*) 'THE AREA IS : ' ,RESULT
+		END
+		
